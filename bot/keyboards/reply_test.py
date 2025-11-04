@@ -1,7 +1,7 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
 
-async def reply_test(another_names: list[str]) -> ReplyKeyboardMarkup:
+def reply_test(another_names: list[str]) -> ReplyKeyboardMarkup:
     if not another_names:
         another_names = ['one', 'two', 'three']
 

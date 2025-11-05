@@ -60,6 +60,7 @@ requirements.txt           # Зависимости проекта
    ```
 2. **Создайте и активируйте виртуальное окружение**
    ```bash
+   cd aiogram_bot_template
    python3 -m venv .venv
    source .venv/bin/activate
    ```
